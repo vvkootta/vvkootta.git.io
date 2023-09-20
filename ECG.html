@@ -1,0 +1,321 @@
+<!DOCTYPE HTML>
+<!--
+	Future Imperfect by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Single - Future Imperfect by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="single is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Portfolio</a></h1>
+						<!-- <nav class="links">
+							<ul>
+								<li><a href="#">Lorem</a></li>
+								<li><a href="#">Ipsum</a></li>
+								<li><a href="#">Feugiat</a></li>
+								<li><a href="#">Tempus</a></li>
+								<li><a href="#">Adipiscing</a></li>
+							</ul>
+						</nav> -->
+						<!-- <nav class="main">
+							<ul>
+								<li class="search">
+									<a class="fa-search" href="#search">Search</a>
+									<form id="search" method="get" action="#">
+										<input type="text" name="query" placeholder="Search" />
+									</form>
+								</li>
+								<li class="menu">
+									<a class="fa-bars" href="#menu">Menu</a>
+								</li>
+							</ul>
+						</nav> -->
+					</header>
+
+				<!-- Menu -->
+					<section id="menu">
+
+						<!-- Search -->
+							<section>
+								<form class="search" method="get" action="#">
+									<input type="text" name="query" placeholder="Search" />
+								</form>
+							</section>
+
+						<!-- Links -->
+							<!-- <section>
+								<ul class="links">
+									<li>
+										<a href="#">
+											<h3>Lorem ipsum</h3>
+											<p>Feugiat tempus veroeros dolor</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>Dolor sit amet</h3>
+											<p>Sed vitae justo condimentum</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>Feugiat veroeros</h3>
+											<p>Phasellus sed ultricies mi congue</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>Etiam sed consequat</h3>
+											<p>Porta lectus amet ultricies</p>
+										</a>
+									</li>
+								</ul>
+							</section> -->
+
+						<!-- Actions -->
+							<!-- <section>
+								<ul class="actions stacked">
+									<li><a href="#" class="button large fit">Log In</a></li>
+								</ul>
+							</section> -->
+
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<article class="post">
+								<header>
+									<div class="title">
+										<h2><a href="#">ECG Simulator</a></h2>
+										
+									</div>
+									<div class="meta">
+										
+									
+									
+								</header>
+								<span class="image featured"><img width = "200px" height="500px" src="images/heartbeat-line.webp" alt="" /></span>
+								<p>During my first coop I was in a group with five other biomedical engineering students and we were tasked with creating an ECG Simulator within three months. This ECG Simulator would be used to test out the Holter devices at the company to see if they could pick up heartbeat signals properly. </p>
+								<p><strong>1. Research </strong> <br/>We researched different strategies and methods to build this device. I researched the different ISO standards that would be implemented for this device based on its purpose. The ISO standards we used for our reference were IEC 60601-1 and ISO 14971. These correlate to Basic Safety and Essential Performance for Medical Devices and Risk Management for Medical Devices. We drafted a digikey list that we gave to management for the components needed to build this simulator. To build the simulator we used a <ul><li>Breadboard</li> <li>Adafruit Feather Arduino</li> <li>Digital-to-Analog converter</li> <li>Resistors</li> <li>Insulated Copper Wire</li></ul> We bought other items that we weren't able to implement into the circuit due to timing and lack of resources. These are <ul><li>5k Potentiometer Panel Control
+                                </li><li>Knob ¼” shaft</li><li>COM-09765 7 segment display</li></ul> </p>
+
+									&nbsp; 
+									&nbsp; 
+									&nbsp; 
+								<p align="left"><strong>2. Constructing the circuit </strong></p>
+                                    <p align="left">We went to the University of Waterloo to solder the pins on the arduino and construct the circuit board. We used our research as reference on how to construct the circuit while incorporating the different pieces that we had. </p>
+					<!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="images/soldering.jpg" style="width:100%">
+      <div class="text">Soldering the pins of the arduino</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="images/circuit reference.png" style="width:100%">
+      <div class="text">Reference circuit board (Adafruit Menta) </div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="images/early circuit build.jpg" style="width:100%">
+      <div class="text">Early circuit design</div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+  <script>let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    // Thumbnail image controls
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+    }</script>			
+								&nbsp;
+								&nbsp; 
+								&nbsp; 
+								&nbsp;
+								
+							<p align="left"><strong>3. Designing the case</strong> <br/>We wanted to design a case to house the circuit board so that anyone using it wouldn't be exposed to wiring and could use the components they needed without any confusion. The case was designed so that it could be opened and the circuit board could be taken out if it needed any maintenance. It would had grooves and ridges that correlated to the breadboard so that the bread board would fit in these indentations/extrustions to prevent it from moving in the case as the case is being transported. The pieces of the case that were supposed to be designed split between a group member and I and we both created them on SolidWorks. I created the top half and they created the bottom with both of us helping the other when creating the case. The case was assembled on SolidWorks Assembly to ensure that the dimensions of both pieces matched. </p>
+
+
+
+							<!-- Container for the image gallery -->
+<div class="container">
+
+	<!-- Full-width images with number text -->
+	<div class="mySlides">
+	  <div class="numbertext">1 / 4</div>
+		<img src="images/top view case.png" style="width:40%">
+	</div>
+  
+	<div class="mySlides">
+	  <div class="numbertext">2 / 4</div>
+		<img src="images/bottom part of case.png" style="width:100%">
+	</div>
+  
+	<div class="mySlides">
+	  <div class="numbertext">3 / 4</div>
+		<img src="images/deconstructed case.png" style="width:100%">
+	</div>
+  
+	<div class="mySlides">
+	  <div class="numbertext">4 / 4</div>
+		<img src="images/assembled case.png" style="width:100%">
+	</div>
+  
+	<!-- Next and previous buttons -->
+	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+	<!-- Image text -->
+	<div class="caption-container">
+	  <p id="caption"></p>
+	</div>
+  
+	<!-- Thumbnail images -->
+	<div class="row">
+	  <div class="column">
+		<img class="demo cursor" src="images/top view case.png" style="width:100%" onclick="currentSlide(1)" alt="Top view of the case">
+	  </div>
+	  <div class="column">
+		<img class="demo cursor" src="images/bottom part of case.png" style="width:100%" onclick="currentSlide(2)" alt="Bottom half of the case">
+	  </div>
+	  <div class="column">
+		<img class="demo cursor" src="images/deconstructed case.png" style="width:100%" onclick="currentSlide(3)" alt="All the components of the case">
+	  </div>
+	  <div class="column">
+		<img class="demo cursor" src="images/assembled case.png" style="width:100%" onclick="currentSlide(4)" alt="Assembled case">
+	  </div>
+	</div>
+  </div>
+
+  <script>
+  let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
+</script>
+
+						<p align="left"><strong>4. Code</strong> <br/>We adapted code from the research we used to start this project. We had to alter the code because there were variations for the device this code was used for veruses what we were building. Due to a lack of time, we were not able ot prefect the code for the device but the code it work and it did show some readings on the holter device. This meant it was emitting millivolts to the Holter monitor.</p>
+
+						<figure style="text-align: center;">
+							<figure style="text-align: center;">
+								<img src="images/millivolt signals.png.jpg" alt="Alt description here"/>
+								&nbsp; 
+								<figcaption><em>The heartbeat data that shows up for the Holter monitor </em></figcaption>
+						</figure>
+					</span>
+
+                        <p align="left"><strong>4. End product</strong> <br/>Despite our lack of resources, time, and limited knowledge on how to create this simulator we were successfully able to create a prototype of an ECG Simulator. We were able to create a case for it, program it, and confirm that it is operational. If given more time, we would have implemented the COM-09765 7 segment display so that the BPM could be displayed on the device. This would allow the user to see what BPM is being emitted to the Holter device to ensure that the Holter device was picking up the signals properly. We would have also added the Knob ¼” shaft and 5k Potentiometer Panel Control so that the strength of the millivolts could be altered to mimic other BPMs. I am proud of my team and what we were able to accomplish and the level of professionalism we maintained throughout the process. The price of this device was also cost effective since the amount of money spent on the circuit pieces was 60% less than our estimated costs. A technical report was submitted that outlined our process, equipment, and can be used as a reference for future coop students who want to carry on the project.   </p>
+						<span class="image featured">
+							<figure style="text-align: center;">
+								<figure style="text-align: center;">
+									<img src="images/completed circuit.png.jpg" alt="Alt description here"/>
+									&nbsp; 
+									<figcaption><em>The completed circuit </em></figcaption>
+							</figure>
+						</span>
+
+								<footer>
+						
+								</footer>
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<ul class="icons">
+						
+							<li><a href="mailto:vibhakoottala@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<p class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>. Images: <a href="http://unsplash.com">Unsplash</a>.</p>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
